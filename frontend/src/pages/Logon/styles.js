@@ -56,10 +56,13 @@ export const Form = styled.form`
 
 export const Image = styled.img`
   @media (max-width: 930px) {
+    width: 50%;
+
     ${props =>
       props.logo &&
       css`
         margin: 5% 0 0 0;
+        width: 40%;
       `}
   }
 
@@ -69,7 +72,7 @@ export const Image = styled.img`
     ${props =>
       props.logo &&
       css`
-        width: 70%;
+        width: 60%;
       `}
   }
 
