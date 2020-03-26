@@ -11,10 +11,10 @@
 </h4>
 
 <p align="center">
-<a href="#projeto">🔭  Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp
-<a href="#tecnologias"> 💻  Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#projeto">💜  Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#getting">🤠  Getting Started </a>
+<a href="#telescope-projeto">🔭  Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp
+<a href="#computer-tecnologias"> 💻  Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-preview">💜  Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-getting-started">🤠  Getting Started </a>
 
 </p>
 
