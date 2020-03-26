@@ -38,8 +38,8 @@ module.exports = {
     }
 
     const incidents = await connection("incidents")
-      .join("ongs", "ongs.id", "=", "incidents.ong_id")
-      .select();
+      .where("ong_id", ong_id)
+      .select("*");
 
     if (incidents.length > 0) {
       return res.status(401).json({
