@@ -72,7 +72,7 @@ Após as dependências terminarem de instalar execute `$ npx knex migrate:latest
 Logo após seguir tudo que foi feito acima pode executar o comando `yarn start` ou `npm start` e deverá aparecer algo parecido com essa mensagem:
 
 ```
-	[SERVER] Server is running on  http://localhost:3333
+[SERVER] Server is running on  http://localhost:3333
 ```
 
 > O fronted e o mobile necessita do backend funcionando para ter seu funcionamento normal!
