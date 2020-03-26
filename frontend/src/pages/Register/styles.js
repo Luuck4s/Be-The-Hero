@@ -9,6 +9,10 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 930px) {
+    height: 100%;
+  }
 `;
 
 export const Content = styled.div`
@@ -53,7 +57,18 @@ export const Section = styled.section`
   }
 `;
 
-export const Image = styled.img``;
+export const Image = styled.img`
+
+  @media (max-width: 650px) {
+    width: 80%;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+`;
 
 export const Title = styled.h1`
   margin: 64px 0 32px;

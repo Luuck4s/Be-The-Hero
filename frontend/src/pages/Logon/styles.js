@@ -1,9 +1,8 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 100vw;
   max-width: 1120px;
-  height: 100vh;
   margin: 0 auto;
   padding: 0 5% 0 5%;
 
@@ -18,10 +17,15 @@ export const Container = styled.div`
   @media (max-width: 650px) {
     margin: 0;
   }
+
+  @media (max-width: 500px) {
+    max-height: 100%;
+  }
 `;
 
 export const Section = styled.section`
   width: 100%;
+  height: 100%;
   max-width: 350px;
   margin-right: 30px;
 
@@ -30,11 +34,24 @@ export const Section = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
+  }
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
   }
 `;
 
 export const Form = styled.form`
   margin-top: 100px;
+
+  @media (max-width: 650px) {
+    margin-left: 5%;
+  }
 `;
 
 export const Image = styled.img`
@@ -48,6 +65,23 @@ export const Image = styled.img`
 
   @media (max-width: 650px) {
     width: 80%;
+
+    ${props =>
+      props.logo &&
+      css`
+        width: 70%;
+      `}
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    margin-top: 50px;
+
+    ${props =>
+      props.logo &&
+      css`
+        width: 80%;
+      `}
   }
 `;
 

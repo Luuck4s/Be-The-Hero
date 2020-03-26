@@ -54,7 +54,7 @@ export default function Logon() {
           <Form onSubmit={hanldeLogin}>
             <Title>Faça seu logon</Title>
             <Input
-              placeholder="Sua Id"
+              placeholder="Seu Id"
               value={id}
               onChange={e => setId(e.target.value)}
             />
