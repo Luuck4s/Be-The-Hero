@@ -97,6 +97,6 @@ Após as dependências terminarem de baixar execute `yarn start` ou `npm start` 
 
 --- 
 
-<h5 align="center"> 🚀 Semana OmniStack 11.0 by Luuck </h5>
+<h5 align="center"> 🚀 Semana OmniStack 11.0 by Luuck4s 💜 </h5>
 
 --- 
