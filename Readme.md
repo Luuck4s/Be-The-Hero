@@ -47,6 +47,10 @@
 
 ## 💜 Preview
 
+<p  align="center">
+  <img  alt="Mobile"  src=".github/mobile.png"  width="100%">
+</p>
+
 <p align="center">
   <img alt="Web cadastro" src=".github/register.png" width="100%">
 </p>
@@ -69,6 +73,8 @@ Logo após clonar o repositório navegue ate a pasta backend `$ cd backed/` e ex
 
 Após as dependências terminarem de instalar execute `$ npx knex migrate:latest` , isso ira executar as migrations necessárias para criar o banco de dados.
 
+> Caso deseje realizar os testes, execute `$ yarn test` ou `$ npm test`, irá exibir em seu terminal o resultado dos testes.
+
 Logo após seguir tudo que foi feito acima pode executar o comando `yarn start` ou `npm start` e deverá aparecer algo parecido com essa mensagem:
 
 ```
@@ -88,3 +94,9 @@ Depois das dependências terminarem de instalar execute o comando `yarn start` o
 Para executar o mobile entre na pasta `$ cd mobile/` e logo após o backend estiver funcionando, execute `yarn install` ou `npm install`.
 
 Após as dependências terminarem de baixar execute `yarn start` ou `npm start` e ai o expo já estará funcionando para você ler o Qr Code e utilizar a aplicação.
+
+--- 
+
+<h5 align="center"> 🚀 Semana OmniStack 11.0 by Luuck </h5>
+
+--- 
