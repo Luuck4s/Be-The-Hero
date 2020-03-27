@@ -4,9 +4,9 @@
   "description": "API do Be The Hero, projeto desenvolvido durante a Semana OmniStack 11.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "jest"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "cross-env NODE_ENV=test jest"
   },
   "repository": "https://github.com/Luuck4s/Be-The-Hero",
   "author": "Lucas Lima",
@@ -14,6 +14,7 @@
   "dependencies": {
     "celebrate": "^12.0.1",
     "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
     "express": "^4.17.1",
     "knex": "^0.20.13",
     "sqlite3": "^4.1.1"
@@ -22,10 +23,5 @@
     "jest": "^25.1.0",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
-  },
-  "jest": {
-    "coveragePathIgnorePatterns": [
-      "/node_modules/"
-    ]
   }
 }
